@@ -41,16 +41,16 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum officiis neque nam cumque iste laborum consectetur delectus aspernatur id ducimus, possimus laudantium impedit. Velit reprehenderit consequatur nostrum officiis in perspiciatis.</p>
     </div>
 
-    <div class="col3">
+    <div class="col3 grayscale">
         <img src="img/giulia-may-tz4dVl1Lk1o-unsplash.jpg" alt="" class="header-pix">
     </div>
-    <div class="col3">
+    <div class="col3 grayscale">
         <img src="img/jannis-lucas-T4t9nr18DF8-unsplash.jpg" alt="" class="header-pix">
     </div>
-    <div class="col3">
+    <div class="col3 grayscale">
         <img src="img/jay-chan-T5FRGJbBEQE-unsplash.jpg" alt="" class="header-pix">
     </div>
-    <div class="col3">
+    <div class="col3 grayscale">
         <img src="img/wengang-zhai-Ts1W-Xbt_Qk-unsplash.jpg" alt="" class="header-pix">
     </div>
 

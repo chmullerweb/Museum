@@ -219,3 +219,14 @@ nav ul a:hover {
         fde01d;
 */
 }
+
+.grayscale img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.grayscale:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
