@@ -59,8 +59,9 @@
 ">Portrait Urbain</h3>
         </div>-->
 
-    <div class="header-txt-bloc col12">
-        <h3 class="header-txt bg-grey">Portrait Urbain</h3>
+    <div class="header-txt-bloc col12 flex bg-grey">
+        <h3 class="header-txt">un Portrait Urbain</h3>
+        <h4 class="subtitle">Exposition Mars 2020</h4>
     </div>
 
 
