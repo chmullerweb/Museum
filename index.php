@@ -95,7 +95,7 @@
     </div>
 
 
-    <div class="row12 col3">
+    <div class="row11 col3">
         <nav>
             <ul class="">
                 <li class="white"><a href="index.php">Accueil</a></li>
@@ -105,7 +105,10 @@
             </ul>
         </nav>
     </div>
-    <div class="flex row12 col3">
+    <div class="row11 col3">
+        <p class="cond-general">-Conditions générales-</p>
+    </div>
+    <div class="flex row11 col3">
         <ul class="footer-list">
             <li class="bold">Museum - Art en couleurs</li>
             <br>
@@ -113,10 +116,7 @@
             <li class="italic">75001 Paris</li>
         </ul>
     </div>
-    <div class="row12 col3">
-        <p class="cond-general">-Conditions générales-</p>
-    </div>
-    <div class="row12 col3">
+    <div class="row11 col3">
         <p class="bold">Contact</p>
         <p>
         <a href="" tel="0109452300" class="contact-txt">O1.09.45.23.00</a><br>

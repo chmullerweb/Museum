@@ -173,8 +173,8 @@ nav ul li {
    background-color: #141414;
 }
 
-.row12{
-    grid-row-start: 12;
+.row11{
+    grid-row-start: 11;
 }
 
 .footer-list{
@@ -186,7 +186,7 @@ nav ul li {
     height: 100px;
     display: table-cell;
 text-align: center;
-    width: 300px;
+    width: 210px;
 }
 
 .contact-txt, nav ul a{
