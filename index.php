@@ -24,10 +24,10 @@
     <header>
         <nav>
             <ul class="flex">
-                <li class="white">Accueil</li>
-                <li class="white">Artistes</li>
-                <li class="white">Tendances</li>
-                <li class="white">Contact</li>
+                <li class="white"><a href="index.php">Accueil</a></li>
+                <li class="white"><a href="artist.php">Artistes</a></li>
+                <li class="white"><a href="trend.php">Tendances</a></li>
+                <li class="white"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -66,7 +66,7 @@
 
 
     <div class="white artist-txt col3 mg-l30">
-        <h2 class="orange">TokyoLuv</h2>
+        <h2 class="orange">Tokyo Luv</h2>
         <p>Artiste du mois</p>
         <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sit optio quasi iste aut natus quas temporibus tempore suscipit voluptatibus aperiam modi incidunt perspiciatis, rem sint culpa dolor molestiae, dignissimos!</p>
     </div>
@@ -118,7 +118,7 @@
         </ul>
     </div>
     <div class="row11 col3">
-        <p class="bold">Contact</p>
+        <p class="bold" id="contact">Contact</p>
         <p>
         <a href="" tel="0109452300" class="contact-txt">O1.09.45.23.00</a><br>
         <a href="" mail="contact@museumartcolor.com" class="contact-txt">contact@museumartcolor.com</a></p>
