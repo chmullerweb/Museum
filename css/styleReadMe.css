@@ -1,0 +1,25 @@
+body {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        nav a{
+            border:1px #ccc solid;
+            padding: 3px 10px;
+            text-decoration: none;
+            background-color: #eee;
+            color-adjust: #000;
+            margin-right: 10px;
+        }
+
+        h1 {
+            background: #ccc;
+            padding: 10px;
+        }
+
+        h2 {
+            border-bottom:1px #ccc dotted;
+            border-top:1px #ccc dotted;
+            margin-top: 40px;
+            padding: 20px 0 5px;
+        }
