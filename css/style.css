@@ -242,7 +242,7 @@ nav ul a:hover {
 }
 
 .btn-artist-bloc button{
-    border-color: #f3722c;
+    border: 0.5px #f3722c solid;
     background: black ;
     border-radius: 20px;
     color: #f3722c; 
