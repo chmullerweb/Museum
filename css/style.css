@@ -72,6 +72,10 @@ body {
     grid-row-start: span 2;
 }
 
+.row6{
+    grid-row-start: 6;
+}
+
 .flex {
     display: flex;
 }
@@ -220,6 +224,8 @@ nav ul a:hover {
 */
 }
 
+
+
 .grayscale img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -229,4 +235,16 @@ nav ul a:hover {
 .grayscale:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
+}
+
+.btn-artist-bloc{
+    display: inline-grid;
+}
+
+.btn-artist-bloc button{
+    border-color: #f3722c;
+    background: black ;
+    border-radius: 20px;
+    color: #f3722c; 
+    font-weight: bold;
 }

@@ -54,10 +54,6 @@
         <img src="img/wengang-zhai-Ts1W-Xbt_Qk-unsplash.jpg" alt="" class="header-pix">
     </div>
 
-    <!-- <div class="header-txt-bloc col12">
-        <h3 class="header-txt bg-grey white text-pattern pattern-dots-sm
-">Portrait Urbain</h3>
-        </div>-->
 
     <div class="header-txt-bloc col12 flex bg-grey">
         <h3 class="header-txt">un Portrait Urbain</h3>
@@ -68,11 +64,15 @@
     <div class="white artist-txt col3 mg-l30">
         <h2 class="orange">Tokyo Luv</h2>
         <p>Artiste du mois</p>
-        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sit optio quasi iste aut natus quas temporibus tempore suscipit voluptatibus aperiam modi incidunt perspiciatis, rem sint culpa dolor molestiae, dignissimos!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sit optio quasi iste aut natus quas temporibus tempore suscipit voluptatibus aperiam modi incidunt perspiciatis, rem sint culpa dolor molestiae, dignissimos!</p>
+    </div>
+
+    <div class="row6 col3 btn-artist-bloc mg-l30">
+        <button>les Artistes à Museum</button>
     </div>
 
     <div class=" expo-bloc row2 col-st5 col3">
-        <p class="expo-txt">Exposition en cours :<br>
+        <p class="expo-txt">Exposition en cours <br>
             <span class="bold">Lumières d'été - Simone Sunrise</span>
         </p>
         <p class="expo-txt">Laborum voluptas, cum est culpa consequatur in voluptatem ipsum, saepe non nemo consectetur odio fostrum nihil quae voluptate, nobis labore fugiat excepturi. Consectetur adipisicing elit.<br><br>
@@ -120,8 +120,8 @@
     <div class="row11 col3">
         <p class="bold" id="contact">Contact</p>
         <p>
-        <a href="" tel="0109452300" class="contact-txt">O1.09.45.23.00</a><br>
-        <a href="" mail="contact@museumartcolor.com" class="contact-txt">contact@museumartcolor.com</a></p>
+            <a href="" tel="0109452300" class="contact-txt">O1.09.45.23.00</a><br>
+            <a href="" mail="contact@museumartcolor.com" class="contact-txt">contact@museumartcolor.com</a></p>
     </div>
 
 
