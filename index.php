@@ -68,7 +68,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button>les Artistes à Museum</button>
+        <button><a href="artist.php">les Artistes à Museum</a></button>
     </div>
 
     <div class=" expo-bloc row2 col-st5 col3">
