@@ -102,12 +102,12 @@
                 <li class="white"><a href="index.php">Accueil</a></li>
                 <li class="white"><a href="artist.php">Artistes</a></li>
                 <li class="white"><a href="trend.php">Tendances</a></li>
-                <li class="white"><a href="#"></a>Horaires et Tarifs</li>
+                <li class="white"><a href="#">Horaires et Tarifs</a></li>
             </ul>
         </nav>
     </div>
     <div class="row11 col3">
-        <p class="cond-general">-Conditions générales-</p>
+        <p class="cond-general"><a href="#">-Conditions générales-</a></p>
     </div>
     <div class="flex row11 col3">
         <ul class="footer-list">

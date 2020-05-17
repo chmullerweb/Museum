@@ -115,7 +115,7 @@ nav ul li {
 .siteName {
     font-family: Aladin;
     font-size: 4.5em;
-    letter-spacing: 8px;
+    letter-spacing: 20px;
     text-align: end;
     margin-right: 15px;
 }
@@ -252,21 +252,21 @@ nav ul li {
     list-style: none;
 }
 
-.cond-general {
+.cond-general a {
     vertical-align: middle;
     height: 100px;
     display: table-cell;
     text-align: center;
     width: 210px;
-}
-
-.contact-txt,
-    nav ul a {
     color: floralwhite;
     text-decoration: none
 }
 
-.contact-txt:hover,
-    nav ul a:hover {
+.contact-txt, nav ul a {
+    color: floralwhite;
+    text-decoration: none
+}
+
+.contact-txt:hover, nav ul a:hover, .cond-general a:hover {
     color: #d72fa6
 }
