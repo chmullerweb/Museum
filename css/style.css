@@ -236,12 +236,14 @@ nav ul li {
 
 .btn-artist-bloc {
     display: inline-grid;
+    justify-content: left;
 }
 
 .btn-artist-bloc button {
     border: 0.5px #f3722c solid;
     background: black;
     border-radius: 20px;
+    padding: 0 20px;
     transition: transform .2s; /* Animation */
 }
 

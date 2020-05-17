@@ -80,7 +80,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button>En savoir plus</button>
+        <button><a href="#">En savoir plus</a></button>
     </div>
     
     <div class="col3 row5 mg-l30">
@@ -95,7 +95,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button>En savoir plus</button>
+        <button><a href="#">En savoir plus</a></button>
     </div>
     
     <div class="col3 row5 mg-l30">
@@ -110,7 +110,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button>En savoir plus</button>
+        <button><a href="#">En savoir plus</a></button>
     </div>
     
     <div class="col3 row5 mg-l30">
@@ -125,7 +125,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button>En savoir plus</button>
+        <button><a href="#">En savoir plus</a></button>
     </div>
     
     <div class="col3 row5 mg-l30">
