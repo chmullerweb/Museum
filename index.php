@@ -68,7 +68,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button><a href="tokyoluv.php">En savoir plus</a></button>
+        <button type="button"><a href="tokyoluv.php">En savoir plus</a></button>
     </div>
 
     <div class=" expo-bloc row2 col-st5 col3">

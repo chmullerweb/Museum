@@ -54,19 +54,6 @@
         <img src="img/shttefan-Q--oPI42ArQ-unsplash.jpg" alt="" class="header-pix">
     </div>
 
-  <!--  <div class="col3 row4">
-        <button class="btn-artist-name">En savoir plus</button>
-    </div>
-    <div class="col3 ">
-        <button class="btn-artist-name">En savoir plus</button>
-    </div>
-    <div class="col3 row4">
-        <button class="btn-artist-name">En savoir plus</button>
-    </div>
-    <div class="col3 row4">
-        <button class="btn-artist-name">En savoir plus</button>
-    </div>-->
-
     <div class="header-txt-bloc col12 flex bg-grey">
         <h3 class="header-txt">Artistes en exposition</h3>
         <h4 class="subtitle">Saison 2020</h4>
@@ -80,7 +67,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button><a href="tokyoluv.php">En savoir plus</a></button>
+        <button type="button"><a href="tokyoluv.php">En savoir plus</a></button>
     </div>
     
     <div class="col3 row5 mg-l30">
@@ -95,7 +82,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button><a href="#">En savoir plus</a></button>
+        <button type="button"><a href="#">En savoir plus</a></button>
     </div>
     
     <div class="col3 row5 mg-l30">
@@ -110,7 +97,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button><a href="#">En savoir plus</a></button>
+        <button type="button"><a href="#">En savoir plus</a></button>
     </div>
     
     <div class="col3 row5 mg-l30">
@@ -125,30 +112,12 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button><a href="#">En savoir plus</a></button>
+        <button type="button"><a href="#">En savoir plus</a></button>
     </div>
     
     <div class="col3 row5 mg-l30">
         <img src="img/alex-holyoake-qX9Ie7ieb1E-unsplash.jpg" alt="" class="artist-pix" style="margin-left:-6px">
     </div>
-
-    <!--<div class=" expo-bloc row8 col-st5 col3">
-        <p class="expo-txt">Exposition en cours <br>
-            <span class="bold">Lumières d'été - Simone Sunrise</span>
-        </p>
-        <p class="expo-txt">Laborum voluptas, cum est culpa consequatur in voluptatem ipsum, saepe non nemo consectetur odio fostrum nihil quae voluptate, nobis labore fugiat excepturi. Consectetur adipisicing elit.<br><br>
-            Natus consequuntur totam. Odit ipsumnihil quae voluptate, nobis dolor sit amet, consectetur adipisicing elit. Cum porro labore non laborum, dolorem voluptas, quasi aliquid quos, molestias voluptatibus consectetur. <br><br>
-            Consectetur adipisicing elit. Id nihil sed enim odit, porro maxime nobis temporibus impedit dicta? Quos ratione ea non unde officiis aut perspiciatis eveniet in quasi? </p><br>
-        <p class="expo-txt italic">
-            Beatae in dicta quaerat 2020.
-        </p>
-    </div>-->
-
-  <!--  <div class="col4 row2">
-        <img src="img/ian-dooley-ZLBzMGle-nE-unsplash.jpg" alt="" class="expo-pix">
-    </div>-->
-
-    
 
     <div class="musee-pix-bloc col12 pattern-dots-md orange max-w-20pc overflow-visible">
         <img src="img/scott-webb-ab80p262fFM-unsplash.jpg" alt="" class="musee-pix">
