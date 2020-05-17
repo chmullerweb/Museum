@@ -129,7 +129,7 @@
     </div>
     
     <div class="col3 row5 mg-l30">
-        <img src="img/alex-holyoake-qX9Ie7ieb1E-unsplash.jpg" alt="" class="artist-pix">
+        <img src="img/alex-holyoake-qX9Ie7ieb1E-unsplash.jpg" alt="" class="artist-pix" style="margin-left:-6px">
     </div>
 
     <!--<div class=" expo-bloc row8 col-st5 col3">
