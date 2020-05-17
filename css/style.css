@@ -56,8 +56,21 @@ body {
     grid-row-start: span 2;
 }
 
+.row4 {
+    grid-row-start: 4;
+}
+
+.row5 {
+    grid-row-start: 5;
+}
+
 .row6 {
     grid-row-start: 6;
+}
+
+
+.row8 {
+    grid-row-start: 8;
 }
 
 .row11 {
@@ -66,6 +79,9 @@ body {
 
 /*------- MARGES ----------*/
 
+.mt-0{
+    margin-top: 0px;
+}
 
 .mg-l30 {
     margin-left: 30px;
@@ -169,7 +185,7 @@ nav ul li {
     margin-top: 0;
     font-size: 2.2em;
     letter-spacing: 4px;
-    width: 35%;
+    width: 45%;
 }
 
 .subtitle {
@@ -229,6 +245,18 @@ nav ul li {
     color: #f3722c;
     font-weight: bold;
 }
+
+/*.btn-artist-name{
+    width: 100%;
+    border: 0.5px floralwhite dotted;
+    color: floralwhite;
+    background: black;
+}
+
+.btn-artist-name:hover{
+    border: 0.5px #f3722c solid;
+    font-weight: 700;
+}*/
 
 
 /*------- CONCLUSION / PHOTO MUSEE ----------*/
