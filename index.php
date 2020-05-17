@@ -21,7 +21,7 @@
 
 <body class="grid">
 
-    <header>
+    <header class="col12">
         <nav>
             <ul class="flex">
                 <li class="white"><a href="index.php">Accueil</a></li>

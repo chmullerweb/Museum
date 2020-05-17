@@ -1,32 +1,12 @@
+/*////////////// BODY & GRID //////////////*/
 body {
     background-color: black;
     font-family: Raleway;
     color: floralwhite;
 }
 
-.red {
-    color: #fb319d;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.orange {
-    color: #f3722c;
-}
-
-.claim h2 {
-    /*
-  font-size: 2em;
-  background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-*/
+.flex {
+    display: flex;
 }
 
 .grid {
@@ -36,6 +16,8 @@ body {
     grid-gap: 20px;
 }
 
+
+/*------- COLONNES ----------*/
 .col-st2 {
     grid-column-start: 2;
 }
@@ -68,25 +50,57 @@ body {
     grid-column-end: span 12;
 }
 
+/*------- LIGNES ----------*/
+
 .row2 {
     grid-row-start: span 2;
 }
 
-.row6{
+.row6 {
     grid-row-start: 6;
 }
 
-.flex {
-    display: flex;
+.row11 {
+    grid-row-start: 11;
+}
+
+/*------- MARGES ----------*/
+
+
+.mg-l30 {
+    margin-left: 30px;
+}
+
+/*////////////// FONT //////////////*/
+
+.red {
+    color: #fb319d;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.orange {
+    color: #f3722c;
 }
 
 .white {
     color: floralwhite;
 }
 
-header {
-    grid-column: span 12;
+.bg-grey {
+    background-color: #141414;
 }
+
+
+/*////////////// HEADER //////////////*/
+
+/*------- MENU ----------*/
 
 ul {
     justify-content: space-around;
@@ -95,6 +109,8 @@ ul {
 nav ul li {
     list-style: none;
 }
+
+/*------- TITRE ----------*/
 
 .siteName {
     font-family: Aladin;
@@ -108,6 +124,9 @@ nav ul li {
     display: inline-grid;
 }
 
+/*------- CLAIM ----------*/
+
+
 .claim {
     text-align: center;
     font-family: Raleway;
@@ -116,9 +135,52 @@ nav ul li {
     align-content: center;
 }
 
-.mg-l30 {
-    margin-left: 30px;
+
+/*////////////// COUVERTURE //////////////*/
+
+
+.header-pix {
+    width: 300px;
+    height: 250px;
 }
+
+.grayscale img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.grayscale:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.header-txt-bloc {
+    position: absolute;
+    width: 100%;
+    top: 477px;
+    height: 42px;
+    justify-content: space-between
+}
+
+.header-txt {
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.2em;
+    letter-spacing: 4px;
+    width: 35%;
+}
+
+.subtitle {
+    font-size: 0.7em;
+    font-weight: 200;
+    padding-right: 20px;
+}
+
+/*////////////// MAIN //////////////*/
+
+/*------- EXPOSITION ----------*/
 
 .expo-bloc {
     width: 491px;
@@ -145,12 +207,32 @@ nav ul li {
     margin-top: 130px;
 }
 
+
+/*------- ARTISTE ----------*/
+
 .artist-pix {
     width: 300px;
     height: 175px;
     border: 2px black solid;
     border-radius: 20px;
 }
+
+
+.btn-artist-bloc {
+    display: inline-grid;
+}
+
+.btn-artist-bloc button {
+    border: 0.5px #f3722c solid;
+    background: black;
+    border-radius: 20px;
+    color: #f3722c;
+    font-weight: bold;
+}
+
+
+/*------- CONCLUSION / PHOTO MUSEE ----------*/
+
 
 .musee-pix {
     width: 600px;
@@ -163,40 +245,8 @@ nav ul li {
     grid-row-start: 8
 }
 
-.header-pix {
-    width: 300px;
-    height: 250px;
-}
 
-.header-txt-bloc {
-    position: absolute;
-    width: 100%;
-    top: 477px;
-    height: 42px;
-    justify-content: space-between
-}
-
-.header-txt {
-    text-align: center;
-    margin-top: 0;
-    font-size: 2.2em;
-    letter-spacing: 4px;
-    width: 35%;
-}
-
-.subtitle {
-    font-size: 0.7em;
-    font-weight: 200;
-    padding-right: 20px;
-}
-
-.bg-grey {
-    background-color: #141414;
-}
-
-.row11 {
-    grid-row-start: 11;
-}
+/*////////////// FOOTER //////////////*/
 
 .footer-list {
     list-style: none;
@@ -211,40 +261,12 @@ nav ul li {
 }
 
 .contact-txt,
-nav ul a {
+    nav ul a {
     color: floralwhite;
     text-decoration: none
 }
 
 .contact-txt:hover,
-nav ul a:hover {
+    nav ul a:hover {
     color: #d72fa6
-        /*
-        fde01d;
-*/
-}
-
-
-
-.grayscale img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.grayscale:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
-
-.btn-artist-bloc{
-    display: inline-grid;
-}
-
-.btn-artist-bloc button{
-    border: 0.5px #f3722c solid;
-    background: black ;
-    border-radius: 20px;
-    color: #f3722c; 
-    font-weight: bold;
 }
