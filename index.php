@@ -32,7 +32,7 @@
         </nav>
     </header>
 
-    <div class="titre col6 pattern-dots-md red max-w-20pc overflow-visible">">
+    <div class="titre col6 pattern-dots-md red max-w-20pc overflow-visible">
         <h1 class="siteName white">Museum</h1>
     </div>
 
@@ -68,7 +68,7 @@
     </div>
 
     <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button><a href="artist.php">les Artistes à Museum</a></button>
+        <button><a href="tokyoluv.php">En savoir plus</a></button>
     </div>
 
     <div class=" expo-bloc row2 col-st5 col3">

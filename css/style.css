@@ -175,7 +175,7 @@ nav ul li {
 .header-txt-bloc {
     position: absolute;
     width: 100%;
-    top: 477px;
+    top: 447px;
     height: 42px;
     justify-content: space-between
 }
@@ -201,7 +201,6 @@ nav ul li {
 .expo-bloc {
     width: 491px;
     border: 1px #fb319d dotted;
-    background: #2a2227;
     height: 337px;
     border-radius: 20px;
     margin-top: 67px;

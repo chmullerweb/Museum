@@ -32,48 +32,44 @@
         </nav>
     </header>
 
-    <div class="titre col6 pattern-dots-md red max-w-20pc overflow-visible">">
+    <div class="titre col6 pattern-dots-md red max-w-20pc overflow-visible">
         <h1 class="siteName white">Museum</h1>
     </div>
 
     <div class="col6 claim white">
-        <h2>L'art en couleurs</h2>
+        <h2>Tokyo Luv</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum officiis neque nam cumque iste laborum consectetur delectus aspernatur id ducimus, possimus laudantium impedit. Velit reprehenderit consequatur nostrum officiis in perspiciatis.</p>
     </div>
 
     <div class="col3 grayscale">
-        <img src="img/giulia-may-tz4dVl1Lk1o-unsplash.jpg" alt="" class="header-pix">
+        <img src="img/jezael-melgoza-M82GRQL7p28-unsplash.jpg" alt="" class="header-pix">
     </div>
     <div class="col3 grayscale">
-        <img src="img/jannis-lucas-T4t9nr18DF8-unsplash.jpg" alt="" class="header-pix">
+        <img src="img/zachariah-hagy-7ignu57aUeU-unsplash.jpg" alt="" class="header-pix">
     </div>
     <div class="col3 grayscale">
-        <img src="img/jay-chan-T5FRGJbBEQE-unsplash.jpg" alt="" class="header-pix">
+        <img src="img/tokyo-luv-tnzzbvW9Rps-unsplash.jpg" alt="" class="header-pix">
     </div>
     <div class="col3 grayscale">
-        <img src="img/wengang-zhai-Ts1W-Xbt_Qk-unsplash.jpg" alt="" class="header-pix">
+        <img src="img/benjamin-wong-c8ioq1LH_mI-unsplash.jpg" alt="" class="header-pix">
     </div>
 
     
     <div class="header-txt-bloc col12 flex bg-grey">
-        <h3 class="header-txt">un Portrait Urbain</h3>
-        <h4 class="subtitle">Exposition Permanente 2020</h4>
+        <h3 class="header-txt">Tokyo Night Paradise</h3>
+        <h4 class="subtitle">Exposition Mai 2020</h4>
     </div>
 
 
     <div class="white artist-txt col3 mg-l30">
-        <h2 class="orange">Tokyo Luv</h2>
-        <p>Artiste du mois</p>
+        <h2 class="orange">Portrait</h2>
+        <p>Corrupti sit optio</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sit optio quasi iste aut natus quas temporibus tempore suscipit voluptatibus aperiam modi incidunt perspiciatis, rem sint culpa dolor molestiae, dignissimos!</p>
     </div>
 
-    <div class="row6 col3 btn-artist-bloc mg-l30">
-        <button><a href="artist.php">les Artistes à Museum</a></button>
-    </div>
-
     <div class=" expo-bloc row2 col-st5 col3">
-        <p class="expo-txt">Prochaine Exposition - Juin 2020<br>
-            <span class="bold">Lumières d'été - Ian Dooley</span>
+        <p class="expo-txt">Présentation<br>
+            <span class="bold">Tokyo Night Paradise - Tokyo Luv</span>
         </p>
         <p class="expo-txt">Laborum voluptas, cum est culpa consequatur in voluptatem ipsum, saepe non nemo consectetur odio fostrum nihil quae voluptate, nobis labore fugiat excepturi. Consectetur adipisicing elit.<br><br>
             Natus consequuntur totam. Odit ipsumnihil quae voluptate, nobis dolor sit amet, consectetur adipisicing elit. Cum porro labore non laborum, dolorem voluptas, quasi aliquid quos, molestias voluptatibus consectetur. <br><br>
@@ -84,11 +80,11 @@
     </div>
 
     <div class="col4 row2">
-        <img src="img/ian-dooley-ZLBzMGle-nE-unsplash.jpg" alt="" class="expo-pix">
+        <img src="img/tokyo-luv-CsMNgdHXzFs-unsplash.jpg" alt="" class="expo-pix">
     </div>
 
     <div class="col3 mg-l30">
-        <img src="img/tokyo-luv-CsMNgdHXzFs-unsplash.jpg" alt="" class="artist-pix">
+        <img src="img/heshan-perera-sJPbzKg5lTA-unsplash.jpg" alt="" class="artist-pix">
     </div>
 
     <div class="musee-pix-bloc col12 pattern-dots-md orange max-w-20pc overflow-visible">
