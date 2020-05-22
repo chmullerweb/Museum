@@ -1,3 +1,16 @@
+.item.one {
+  grid-row: 1;
+  grid-column: span 3 / -1;
+  z-index: 2;
+}
+
+.item.two {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: span 3;
+}
+
+
 /*////////////// BODY & GRID //////////////*/
 body {
     background-color: black;
@@ -61,7 +74,7 @@ body {
 /*------- LIGNES ----------*/
 
 .row2 {
-    grid-row-start: 2;
+    grid-row-start: span 2;
 }
 
 .row3 {
