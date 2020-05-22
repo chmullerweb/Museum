@@ -41,21 +41,23 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum officiis neque nam cumque iste laborum consectetur delectus aspernatur id ducimus, possimus laudantium impedit. Velit reprehenderit consequatur nostrum officiis in perspiciatis.</p>
     </div>
 
-    <div class="col3 grayscale">
-        <img src="img/jezael-melgoza-M82GRQL7p28-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/zachariah-hagy-7ignu57aUeU-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/tokyo-luv-tnzzbvW9Rps-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/benjamin-wong-c8ioq1LH_mI-unsplash.jpg" alt="" class="header-pix">
+    <div class="section-couv flex">
+        <div class="grayscale">
+            <img src="img/jezael-melgoza-M82GRQL7p28-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/zachariah-hagy-7ignu57aUeU-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/tokyo-luv-tnzzbvW9Rps-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/benjamin-wong-c8ioq1LH_mI-unsplash.jpg" alt="" class="header-pix">
+        </div>
     </div>
 
     
-    <div class="header-txt-bloc col12 flex bg-grey">
+    <div class="header-txt-bloc flex bg-grey">
         <h3 class="header-txt">Tokyo Night Paradise</h3>
         <h4 class="subtitle">Exposition Mai 2020</h4>
     </div>
@@ -67,7 +69,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sit optio quasi iste aut natus quas temporibus tempore suscipit voluptatibus aperiam modi incidunt perspiciatis, rem sint culpa dolor molestiae, dignissimos!</p>
     </div>
 
-    <div class=" expo-bloc row2 col-st5 col3">
+    <div class="expo-bloc row2 col-st5 col3">
         <p class="expo-txt">Présentation<br>
             <span class="bold">Tokyo Night Paradise - Tokyo Luv</span>
         </p>
@@ -87,7 +89,7 @@
         <img src="img/heshan-perera-sJPbzKg5lTA-unsplash.jpg" alt="" class="artist-pix">
     </div>
 
-    <div class="musee-pix-bloc col12 pattern-dots-md orange max-w-20pc overflow-visible">
+    <div class="musee-pix-bloc row10 col12 pattern-dots-md orange max-w-20pc overflow-visible">
         <img src="img/scott-webb-ab80p262fFM-unsplash.jpg" alt="" class="musee-pix">
     </div>
 

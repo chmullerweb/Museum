@@ -59,7 +59,7 @@
     </div>
 
     
-    <div class="header-txt-bloc title flex bg-grey">
+    <div class="header-txt-bloc flex bg-grey">
         <h3 class="header-txt">un Portrait Urbain</h3>
         <h4 class="subtitle">Exposition Permanente 2020</h4>
     </div>
@@ -95,7 +95,7 @@
         <img src="img/tokyo-luv-CsMNgdHXzFs-unsplash.jpg" alt="" class="artist-pix">
     </div>
 
-    <div class="musee-pix-bloc col12 pattern-dots-md orange max-w-20pc overflow-visible">
+    <div class="musee-pix-bloc row10 col12 pattern-dots-md orange max-w-20pc overflow-visible">
         <img src="img/scott-webb-ab80p262fFM-unsplash.jpg" alt="" class="musee-pix">
     </div>
 
