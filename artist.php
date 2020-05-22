@@ -40,6 +40,12 @@
         <h2>Les artistes à Museum </h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum officiis neque nam cumque iste laborum consectetur delectus aspernatur id ducimus, possimus laudantium impedit. </p>
     </div>
+    
+        <form class="row3 col12 flex input-search-bloc">
+    <a><img src="img/zoom.png" alt="" class="icone-search"></a>
+    <input type="text" placeholder="Photographie, peinture, sculputre..." class="input-search">
+        </form>
+    </div>
 
     <div class="col3 grayscale">
         <img src="img/heshan-perera-sJPbzKg5lTA-unsplash.jpg" alt="" class="header-pix">
@@ -118,12 +124,12 @@
     <div class="col3 row5 mg-l30">
         <img src="img/alex-holyoake-qX9Ie7ieb1E-unsplash.jpg" alt="" class="artist-pix" style="margin-left:-6px">
     </div>
-
+    
     <div class="musee-pix-bloc col12 pattern-dots-md orange max-w-20pc overflow-visible">
         <img src="img/scott-webb-ab80p262fFM-unsplash.jpg" alt="" class="musee-pix">
     </div>
 
-
+    <footer class="row11 col12" style="display:grid">
     <div class="row11 col3">
         <nav>
             <ul class="">
@@ -151,6 +157,7 @@
             <a href="0109452300" class="contact-txt">O1.09.45.23.00</a><br>
             <a href="contact@museumartcolor.com" class="contact-txt">contact@museumartcolor.com</a></p>
     </div>
+    </footer>
 
 
 

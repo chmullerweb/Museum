@@ -123,6 +123,7 @@
             <a href="0109452300" class="contact-txt">O1.09.45.23.00</a><br>
             <a href="contact@museumartcolor.com" class="contact-txt">contact@museumartcolor.com</a></p>
     </div>
+    </footer>
 
 
 
