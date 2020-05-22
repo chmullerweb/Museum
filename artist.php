@@ -47,20 +47,22 @@
         </form>
     </div>
 
-    <div class="col3 grayscale">
-        <img src="img/heshan-perera-sJPbzKg5lTA-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/noah-buscher-ntQ-DWsyh8o-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/jeremy-bishop-Xf2h7jBeKIU-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/shttefan-Q--oPI42ArQ-unsplash.jpg" alt="" class="header-pix">
+    <div class="section-couv flex" style="grid-row:4">
+        <div class="grayscale">
+            <img src="img/heshan-perera-sJPbzKg5lTA-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/noah-buscher-ntQ-DWsyh8o-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/jeremy-bishop-Xf2h7jBeKIU-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/shttefan-Q--oPI42ArQ-unsplash.jpg" alt="" class="header-pix">
+        </div>
     </div>
 
-    <div class="header-txt-bloc col12 flex bg-grey">
+    <div class="header-txt-bloc flex bg-grey" style="grid-row:4">
         <h3 class="header-txt">Artistes en exposition</h3>
         <h4 class="subtitle">Saison 2020</h4>
     </div>
@@ -76,7 +78,7 @@
         <button type="button"><a href="tokyoluv.php">En savoir plus</a></button>
     </div>
     
-    <div class="col3 row5 mg-l30">
+    <div class="col3 row9 mg-l30">
         <img src="img/tokyo-luv-CsMNgdHXzFs-unsplash.jpg" alt="" class="artist-pix">
     </div>
     
@@ -91,7 +93,7 @@
         <button type="button"><a href="#">En savoir plus</a></button>
     </div>
     
-    <div class="col3 row5 mg-l30">
+    <div class="col3 row9 mg-l30">
         <img src="img/ian-dooley-ZLBzMGle-nE-unsplash.jpg" alt="" class="artist-pix">
     </div>
     
@@ -106,7 +108,7 @@
         <button type="button"><a href="#">En savoir plus</a></button>
     </div>
     
-    <div class="col3 row5 mg-l30">
+    <div class="col3 row9 mg-l30">
         <img src="img/daphne-engelke-lC-ntQsuEpo-unsplash.jpg" alt="" class="artist-pix">
     </div>
     
@@ -121,11 +123,11 @@
         <button type="button"><a href="#">En savoir plus</a></button>
     </div>
     
-    <div class="col3 row5 mg-l30">
+    <div class="col3 row9 mg-l30">
         <img src="img/alex-holyoake-qX9Ie7ieb1E-unsplash.jpg" alt="" class="artist-pix" style="margin-left:-6px">
     </div>
     
-    <div class="musee-pix-bloc col12 pattern-dots-md orange max-w-20pc overflow-visible">
+    <div class="row10 musee-pix-bloc col12 pattern-dots-md orange max-w-20pc overflow-visible">
         <img src="img/scott-webb-ab80p262fFM-unsplash.jpg" alt="" class="musee-pix">
     </div>
 

@@ -42,20 +42,24 @@
     </div>
 
     <div class="col3 grayscale">
-        <img src="img/giulia-may-tz4dVl1Lk1o-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/jannis-lucas-T4t9nr18DF8-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/jay-chan-T5FRGJbBEQE-unsplash.jpg" alt="" class="header-pix">
-    </div>
-    <div class="col3 grayscale">
-        <img src="img/wengang-zhai-Ts1W-Xbt_Qk-unsplash.jpg" alt="" class="header-pix">
+    
+    <div class="section-couv flex">
+        <div class="grayscale">
+            <img src="img/giulia-may-tz4dVl1Lk1o-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/jannis-lucas-T4t9nr18DF8-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/jay-chan-T5FRGJbBEQE-unsplash.jpg" alt="" class="header-pix">
+        </div>
+        <div class="grayscale">
+            <img src="img/wengang-zhai-Ts1W-Xbt_Qk-unsplash.jpg" alt="" class="header-pix">
+        </div>
     </div>
 
     
-    <div class="header-txt-bloc col12 flex bg-grey">
+    <div class="header-txt-bloc title flex bg-grey">
         <h3 class="header-txt">un Portrait Urbain</h3>
         <h4 class="subtitle">Exposition Permanente 2020</h4>
     </div>
@@ -95,7 +99,7 @@
         <img src="img/scott-webb-ab80p262fFM-unsplash.jpg" alt="" class="musee-pix">
     </div>
 
-
+    <footer class="row11 col12" style="display:grid">
     <div class="row11 col3">
         <nav>
             <ul class="">
