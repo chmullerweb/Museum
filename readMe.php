@@ -18,7 +18,7 @@
 
 <body>
 
-    <h1>Mon (petit) musée</h1>
+    <h1>Mon petit musée</h1>
 
     <div class="intro">
         Je souhaite réaliser le site internet d'un musée. <br>
@@ -34,14 +34,13 @@
         Page d'accueil
         <ul>
             <li>une photo du musée et une description</li>
-            <li>une oeuvre (qui sera tiré au hasard dans la collection) et sa description</li>
+            <li>une oeuvre et sa description</li>
         </ul>
 
         Page liste des artistes
         <ul>
             <li>
-                un moteur de recherche avec le choix du type d'artiste (photographe, peintre, graveur...) cette liste
-                pourra évoluer au fil du temps
+                un moteur de recherche avec le choix du type d'artiste (photographe, peintre, graveur...) cette liste pourra évoluer au fil du temps
             </li>
             <li>
                 Le résultat de la recherche :

@@ -1,0 +1,374 @@
+/*////////////// BODY & GRID //////////////*/
+body {
+    background-color: black;
+    font-family: Raleway;
+    color: floralwhite;
+}
+
+.flex {
+    display: flex;
+}
+
+.display-grid {
+    display: grid;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    grid-gap: 20px;
+}
+
+
+/*------- COLONNES ----------*/
+.col-st2 {
+    grid-column-start: 2;
+}
+
+.col-st3 {
+    grid-column-start: 3;
+}
+
+.col-st5 {
+    grid-column-start: 5;
+}
+
+.col2 {
+    grid-column-end: span 2;
+}
+
+.col3 {
+    grid-column-end: span 3;
+}
+
+.col4 {
+    grid-column-end: span 4;
+}
+
+.col6 {
+    grid-column-end: span 6;
+}
+
+.col-st11 {
+    grid-column-start: 11;
+}
+
+.col12 {
+    grid-column-end: span 12;
+}
+
+/*------- LIGNES ----------*/
+
+.row2 {
+    grid-row-start: span 2;
+}
+
+.row3 {
+    grid-row-start: 3;
+}
+
+.row4 {
+    grid-row-start: 4;
+}
+
+.row5 {
+    grid-row-start: 5;
+}
+
+.row6 {
+    grid-row-start: 6;
+}
+
+.row8 {
+    grid-row-start: 8;
+}
+
+.row9 {
+    grid-row-start: 9;
+}
+
+.row10 {
+    grid-row-start: 10;
+}
+
+.row11 {
+    grid-row-start: 11;
+}
+
+/*------- MARGES ----------*/
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mg-l30 {
+    margin-left: 30px;
+}
+
+/*////////////// FONT //////////////*/
+
+.red {
+    color: #fb319d;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.orange {
+    color: #f3722c;
+}
+
+.white {
+    color: floralwhite;
+}
+
+.bg-grey {
+    background-color: #141414;
+}
+
+
+/*////////////// HEADER //////////////*/
+
+/*------- MENU ----------*/
+
+ul {
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+/*------- TITRE ----------*/
+
+.siteName {
+    font-family: Aladin;
+    font-size: 4.5em;
+    letter-spacing: 20px;
+    text-align: end;
+    margin-right: 15px;
+}
+
+.titre {
+    display: inline-grid;
+}
+
+/*------- CLAIM ----------*/
+
+
+.claim {
+    text-align: center;
+    font-family: Raleway;
+    padding: 0 90px;
+    justify-content: center;
+    align-content: center;
+}
+
+/*////////////// SEARCH BAR //////////////*/
+
+.input-search:focus {
+    outline: none;
+}
+
+.input-search-bloc {
+    border-top: 3px #fb319d double;
+    justify-content: center;
+    border-bottom: 3px #fb319d double;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0 60px;
+}
+
+.input-search {
+    width: 50%;
+    background-color: black;
+    color: floralwhite;
+    border: none;
+    padding: 0 10px;
+}
+
+.icone-search {
+    width: 30px;
+    height: 30px;
+}
+
+/*////////////// COUVERTURE //////////////*/
+
+.section-couv {
+    grid-row: 3;
+    grid-column: 1/ span 12;
+    width: 100%;
+}
+
+.header-pix {
+    width: 100%;
+    height: 250px;
+}
+
+.grayscale img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.grayscale:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.header-txt-bloc {
+    height: 42px;
+    justify-content: space-between;
+    grid-row: 3;
+    grid-column: 1 / span 12;
+    z-index: 1;
+    margin-top: 187px;
+}
+
+.header-txt {
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.2em;
+    letter-spacing: 4px;
+    width: 45%;
+}
+
+.subtitle {
+    font-size: 0.7em;
+    font-weight: 200;
+    padding-right: 20px;
+}
+
+/*////////////// MAIN //////////////*/
+
+/*------- EXPOSITION ----------*/
+
+.expo-bloc {
+    width: 491px;
+    border: 1px #fb319d dotted;
+    height: 337px;
+    border-radius: 20px;
+    margin-top: 67px;
+    grid-row-start:
+}
+
+.expo-txt {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 175px;
+    margin: 3px;
+    font-size: 0.8em;
+}
+
+.expo-pix {
+    width: 500px;
+    height: 330px;
+    border-radius: 20px;
+    margin-top: 130px;
+}
+
+
+/*------- ARTISTE ----------*/
+
+.artist-pix {
+    width: 100%;
+    height: 175px;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+
+.btn-artist-bloc {
+    display: inline-grid;
+    justify-content: left;
+}
+
+.btn-artist-bloc button {
+    border: 0.5px #f3722c solid;
+    background: black;
+    border-radius: 20px;
+    padding: 0 20px;
+    transition: transform .2s;
+    /* Animation */
+}
+
+.btn-artist-bloc button:hover {
+    transform: scale(1.1);
+}
+
+.btn-artist-bloc button a {
+    color: #f3722c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-artist-bloc button a:hover {
+    color: #f3722c;
+}
+
+/*.btn-artist-name{
+    width: 100%;
+    border: 0.5px floralwhite dotted;
+    color: floralwhite;
+    background: black;
+}
+
+.btn-artist-name:hover{
+    border: 0.5px #f3722c solid;
+    font-weight: 700;
+}*/
+
+/*------- SEARCH BAR ----------*/
+
+
+
+
+/*////////////// FOOTER //////////////*/
+
+/*------- CONCLUSION / PHOTO MUSEE ----------*/
+
+
+.musee-pix {
+    width: 600px;
+    height: 400px;
+}
+
+.musee-pix-bloc {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*------- BARRE FOOTER ----------*/
+
+.footer-list {
+    list-style: none;
+}
+
+.cond-general a {
+    vertical-align: middle;
+    height: 100px;
+    display: table-cell;
+    text-align: center;
+    width: 210px;
+    color: floralwhite;
+    text-decoration: none
+}
+
+.contact-txt,
+nav ul a {
+    color: floralwhite;
+    text-decoration: none
+}
+
+.contact-txt:hover,
+nav ul a:hover,
+.cond-general a:hover {
+    color: #d72fa6
+}
