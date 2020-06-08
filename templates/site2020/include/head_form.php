@@ -25,7 +25,7 @@
         <nav>          
             <ul class="flex">            
                 <li><a href="<?php $_url_base?>../index.php">Retour</a></li>
-                <li><a href="<?php $_url_base . "connexion_page.php?deconnexion"?>">Se déconnecter</a></li>                
+                <li><a href="<?php echo $_url_base . 'administration/connexion_page.php?deconnexion'?>">Se déconnecter</a></li>                
             </ul>
         </nav>
 </header>

@@ -1,6 +1,10 @@
 <?php 
 include "../config.php";
 include "../templates/site2020/include/head_form.php";
+
+if(isset($_GET["deconnexion"])){
+    unset($_SESSION["droit_connexion"]);
+}
 ?>
 
 <body>
