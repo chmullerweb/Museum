@@ -53,7 +53,7 @@
         </p>
     </div>
 
-    <div class="col4 row2">
+    <div class="col4 row2 bloc-expo-pix">
         <img src="<?php echo $_dossier_template ?>img/ian-dooley-ZLBzMGle-nE-unsplash.jpg" alt="" class="expo-pix">
     </div>
     
