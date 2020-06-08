@@ -57,7 +57,7 @@
         <img src="<?php echo $_dossier_template ?>img/ian-dooley-ZLBzMGle-nE-unsplash.jpg" alt="" class="expo-pix">
     </div>
     
-    <div class="col3 mg-l30">
+    <div class="col3 mg-l30 pix-artist">
         <img src="<?php echo $_dossier_template ?>img/tokyo-luv-CsMNgdHXzFs-unsplash.jpg" alt="" class="artist-pix">
     </div>
 
