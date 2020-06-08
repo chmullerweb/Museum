@@ -3,6 +3,8 @@
 // je sécurise ma connexion à la page administrateur en verifiant que le paramètre de $_SESSION["droit_connexion"] existe. Pour simplifier cette partie et éviter de la répéter. J'ai crée dans mon fichier config.php une fonction verif_connexion()
 
 include "../config.php";
+include "../templates/site2020/include/head_form.php";
+
 
 verif_connexion();
 
@@ -19,18 +21,15 @@ verif_connexion();
 
 <body>
    
-   <h1>Bienvenue sur la page admin <?php echo $_SESSION["pseudo"] ?></h1>
-    
-    <br>
+    <h1 class="col12 row2 titreAdmin">Bienvenue sur la page admin <span class="pink"><?php echo $_SESSION["pseudo"] ?></span></h1>
     
     <!--Je crée un formulaire qui récupère du texte et une photo. Je précise dans la balise <form> enctype="multipart/form_data" car je vais récupérer plusieurs datas/fichiers-->
     
-    <form method="post" action="admin.php" enctype="multipart/form-data">
+    <form method="post" action="admin.php" enctype="multipart/form-data" class="col-st3">
     
-    <div>
-        <label for="name">Donne un nom au musée :</label>
-        <br>
-        <textarea name="name" type="text" id="" cols="30" rows="10"></textarea>
+    <div class="saisieForm pb-10">
+        <label for="name">Donne un nouveau nom au musée :</label>
+        <input name="name" type="text">
     </div>
     
     <?php
@@ -49,12 +48,19 @@ verif_connexion();
             fclose($file);
         }
        
+            #afficher le texte qui a été envoyé
        ?>
+        <div class="saisieForm pb-10">
+            <label for="txtSaisie">Vous avez choisi ce nom :
+            <input name="txtSaisie" type="text" value="<?php echo file_get_contents(__DIR__ . "/inscription.txt")?>">
+            </label>
+        </div> 
+       
+       
     
-    <br>
-    <div>
+    
+    <div class="saisieForm pb-10">
         <label for="photo">A quoi ressemble ton musée ?</label>
-        <br>
         <!--Je crée un autre input destiné à recevoir des photos/fichiers => type="file"-->
         <input type="file" name="photo_musee">
     </div>
@@ -90,7 +96,7 @@ verif_connexion();
     ?>
     
     <br>
-        <button type="submit">Enregistrer </button>
+        <button class="validButton" type="submit">Enregistrer </button>
     </form>
     
     

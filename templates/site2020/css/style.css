@@ -96,7 +96,7 @@ body {
     grid-row-start: 11;
 }
 
-/*------- MARGES ----------*/
+/*------- MARGES & PADDING ----------*/
 
 .mt-0 {
     margin-top: 0px;
@@ -106,9 +106,16 @@ body {
     margin-left: 30px;
 }
 
+.pb-10{
+    padding-bottom: 2rem;
+}
 /*////////////// FONT //////////////*/
 
 .red {
+    color: #fb319d;
+}
+
+.pink {
     color: #fb319d;
 }
 
@@ -371,4 +378,35 @@ nav ul a {
 nav ul a:hover,
 .cond-general a:hover {
     color: #d72fa6
+}
+
+/*////////// ADMINISTATION ///////////*/
+
+/*------- FORMULAIRE ----------*/
+
+.blocForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 4/ span 6;
+    grid-row: 3;
+}
+
+.saisieForm{
+    flex-direction: column;
+    display: flex;
+}
+
+.connectButton, .validButton{
+    padding: 0.2rem 5rem;
+}
+
+/*------- PAGE ADMIN ----------*/
+
+.titreAdmin{
+    text-align: center;
+}
+
+input{
+    margin-top: 0.3rem;
 }
