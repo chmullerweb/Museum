@@ -32,6 +32,7 @@ Ce site internet n'est pas encore consultable en ligne
 
 ### CSS
 * Utilisation de CSS Grid pour la mise en page 
+* Animation CSS passage du noir à la couleur
 
 
 
